@@ -1,8 +1,9 @@
 import PackageDescription
 
 let package = Package(
+    name: "Kanna",
     dependencies: [
-		.Package(url: "../Kanna", majorVersion: 1)
+		.Package(url: "https://github.com/Utsira/Kanna.git", majorVersion: 1)
     ]
 )
 
